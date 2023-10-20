@@ -1,49 +1,147 @@
-
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
+
 .main {
     width: 100%;
     height: 100vh;
     position: relative;
 }
-.pic img{
+
+.pic img {
     opacity: 0.8;
     height: 80vh;
     width: 100%;
 }
-.content{
+.overlay{
+    width: 100%;
+    height: 80vh;
     position: absolute;
-    top: 10px;
-    margin-left: 50px;
+    background-color: rgb(7, 7, 7);
 }
-.content h2{
+.content {
+    width: 100%;
+    position: absolute;
+    top: 15%;
+    text-align: center;
+}
+
+.content h2 {
     text-shadow: 3px 2px 2px rgb(110, 72, 72);
     font-size: 3.2rem;
     color: white;
 }
-.content span{
+
+.content span {
     text-shadow: 2px 2px 2px white;
     font-size: 4rem;
     color: rgb(110, 72, 72);
 }
-.content p{
+
+.content p {
     font-size: 1rem;
     color: rgb(110, 72, 72);
     margin-left: 80px;
     font-weight: 600;
+    color: white;
+    text-shadow: 2px 3px 5px black;
 }
-.content button{
+
+.content button {
     border-radius: 8px;
     min-width: 120px;
     min-height: 30px;
     border: none;
     background-color: rgb(110, 72, 72);
     color: white;
-    margin-left: 250px;
+   
+
 }
-.content button:hover{
+
+.content button:hover {
     color: rgb(253, 202, 108);
+}
+
+.tracking-form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.tracking-form input {
+    width: 40%;
+    margin-right: 20px;
+    padding: 10px 5px;
+}
+.center{
+    width: 100%;
+    padding:10px;
+   margin-top: 40px;
+    text-align: center;
+}
+.center h2{
+    font-size: 3rem;
+    color: rgb(110, 72, 72);
+  
+}
+.cen{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 70px;
+}
+.cen1{
+    width: 100%;
+    height: 350px;
+}
+.cen1 img{
+    width:550px;
+    height: 350px;
+}
+.cen2{
+    width: 100%;
+    height: 350px;
+    text-align: justify;
+}
+.cen2 p{
+    font-size: 1.1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:768px)
+{
+   
+///////////////
+
 }
